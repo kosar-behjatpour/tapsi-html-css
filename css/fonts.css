@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "iranYekan";
+    font-family: 400;
+    font-style: normal;
+    src: url("../assets/fonts/Vazir.woff") format("woff");
+}
+@font-face {
+    font-family: "iranYekan";
+    font-family: 700;
+    font-style: normal;
+    src: url("../assets/fonts/Vazir-Bold.woff") format("woff");
+}
+body{
+    font-family: "iranYekan";
+}
