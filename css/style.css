@@ -24,6 +24,7 @@ html{
 body{
     color: var(--color-body);
     font-size: 1.4rem;
+    line-height: 1.6;
 }
 h1,h2,h3{
     color: var(--color-headings);
@@ -193,4 +194,31 @@ h2{
     .plan .btn--block{
     font-size: 1.8rem;
 }
+}
+
+/* container */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* feature */
+.feature{
+    display: grid;
+}
+.feature .btn{
+    padding: 1.2rem 3rem;
+}
+.feature__text{
+    margin-bottom: 3rem;
+}
+.feature__image{
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width:1024px) {
+    .feature{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
