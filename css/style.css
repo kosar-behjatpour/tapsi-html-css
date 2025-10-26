@@ -9,13 +9,14 @@ list-style: none;
 
 /* root variable */
 :root{
-    --color-primary:#FF5722;
-    --color-secondary-light:#FFA589;
-    --color-secondary-dark:#FF7A50;
-    --color-navbar: #f8f8f8;
-    --color-headings:#000000;
-    --color-body:#333333;
-    --color-white:#fff;
+  --color-primary: #ff5722;
+  --color-primary-light: #ff7a50;
+  --color-secondary-light: #fff6f2;
+  --color-secondary-dark: #ffa589;
+  --color-navbar: #f8f8f8;
+  --color-headings: #000;
+  --color-body: #333333;
+  --color-white: #fff;
 }
 html{
     font-size: 62.5%;
@@ -44,5 +45,38 @@ h2{
     }
     h2{
         font-size: 3.5rem;
+    }
+}
+
+/* class */
+.btn{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.4rem;
+}
+
+.btn--primary{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.btn--secondary{
+    background-color: var(--color-secondary-dark);
+    color: var(--color-white);
+}
+.btn--block{
+    width: 100%;
+}
+@media screen and (min-width:1024px) {
+    .btn{
+        font-size: 1.6rem;
+    }
+    .btn--block{
+        font-size: 2rem;
     }
 }
