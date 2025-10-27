@@ -316,3 +316,18 @@ h2 {
         grid-area: icons;
     }
 }
+
+/* icons */
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.icon-container{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #333333;
+}
